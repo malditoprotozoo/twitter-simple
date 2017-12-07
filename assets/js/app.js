@@ -13,6 +13,7 @@ tweet.addEventListener("click", function() {
     parrafo.appendChild(textoTweet);
     contenedorParrafo.appendChild(parrafo);
     seccionTweets.appendChild(contenedorParrafo);
+    /* Ingresa una clase para que luego se pueda editar el estilo de los posts */
     contenedorParrafo.setAttribute("class", "posteo");
   /* En caso contrario, adviertele al usuario que ingrese algún texto */
   } else {
